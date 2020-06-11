@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    padding: 1rem;
+}
+/* navigation  */
+.navbar {
+    background-color: #fff;
+    padding: 7rem 3rem 1rem; 
+}
+.inqury {
+    margin: 5rem 0rem 0rem 0rem; 
+    width: 176px;
+    border: 1px solid red;
+    color: black;
+}  
+.inqury:hover {
+    background-color: red;
+    color: black;
+    font-weight: 600;
+}
+/* end navigation  */
