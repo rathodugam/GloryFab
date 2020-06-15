@@ -2,409 +2,530 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GloryFeb LLp</title>
-    <!-- favicon icon  -->
-    <link rel="icon" href="image/glory-logo.png" type="image/gif" sizes="16x16">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GloryFeb LLp</title>
+  <!-- favicon icon  -->
+  <link rel="icon" href="image/glory-logo.png" type="image/gif" sizes="16x16">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <!-- external css  -->
-    <link rel="stylesheet" href="css/help.css">
-    <link rel="stylesheet" href="css/megamenu.css">
-    <!-- icons  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <!-- aos animation  -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- external css  -->
+  <link rel="stylesheet" href="css/help.css">
+  <link rel="stylesheet" href="css/megamenu.css">
+  <!-- icons  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- aos animation  -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- header  -->
-    <div class="container-fluid">
-        <div class="row">
-            <nav>
-                <div class="mega-menu menuClass">
-                    <div class="mobile-nav-icon">
-                        <a class="" href="#">
-                            <span class="fa fa-bars"></span>
-                        </a>
-                    </div>                   
-                    <div class="main-links">
-                        <ul>
-                            <li><img src="image/glory-logo.png" class="img-responsive" height="60" width="60px"></li>
-                            <li><a href="#">Home</a></li>
-                            <li><a data-submenu="products" href="#">Products</a></li>
-                            <li><a data-submenu="brands" href="#">Brands</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a data-submenu="support" href="#">Support</a></li>
-                        </ul>
-                        <div class="searchBox">
-                            <input class="searchInput" type="text" name="" placeholder="Search">
-                            <button class="searchButton" href="#">
-                                <i class="material-icons">
-                                    search
-                                </i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="menu-dropdown">
-                        <ul class="menu-item-wrapper" id="products">
-                            <li class="category-wrapper">
-                                <span class="item-category">Clothing</span>
-                                <ul>
-                                    <li><a href="#">Tshirts</a></li>
-                                    <li><a href="#">Pants</a></li>
-                                    <li><a href="#">Full Sleeves</a></li>
-                                    <li><a href="#">Pants</a></li>
-                                    <li><a href="#">Pants</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="category-wrapper">
-                                <span class="item-category">Watches</span>
-                                <ul>
-                                    <li><a href="#"> Sport Watches</a></li>
-                                    <li><a href="#"> Smartwatches</a></li>
-                                    <li><a href="#"> Casual Watches</a></li>
-                                    <li><a href="#"> Formal Watches</a></li>
-                                    <li><a href="#"> Mens Watches</a></li>
-                                    <li><a href="#"> Womens Watches</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="#"> Womens Watches</a></li>
-                                    <li><a href="#"> Smartwatches</a></li>
-                                    <li><a href="#"> Sport Watches</a></li>
-                                    <li><a href="#"> Casual Watches</a></li>
-                                    <li><a href="#"> Formal Watches</a></li>
-                                    <li><a href="#"> Mens Watches</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul class="menu-item-wrapper" id="brands">
-                            <li class="category-wrapper">
-                                <span class="item-category">Brands</span>
-                                <ul>
-                                    <li><a href="#"> Nike</a></li>
-                                    <li><a href="#"> Adidas</a></li>
-                                    <li><a href="#"> Puma</a></li>
-                                    <li><a href="#"> Caterpillar</a></li>
-                                    <li><a href="#"> Levis</a></li>
-                                    <li><a href="#"> Wrangler</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul class="menu-item-wrapper dropdown" id="support">
-                            <li> <a href="#">FAQ</a> </li>
-                            <li> <a href="#">Help</a> </li>
-                            <li> <a href="#">Contact US</a> </li>
-                        </ul>
-                    </div>
-                </div>
+  <!-- header  -->
+  <div class="container-fluid">
+    <div class="row">
+      <nav>
+        <div class="mega-menu menuClass">
+          <div class="mobile-nav-icon">
+            <a class="" href="#">
+              <span class="fa fa-bars"></span>
+            </a>
+          </div>
+          <div class="main-links">
+            <ul>
+              <li><img src="image/glory-logo.png" class="img-responsive" height="60" width="60px"></li>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">COMPANY PROFILE</a></li>
+              <li><a data-submenu="products" href="#">OUR PRODUCTS</a></li>
+              <!-- <li><a href="#">Blog</a></li> -->
+              <li><a href="#">CONTACT US</a></li>
+            </ul>
+            <div class="searchBox">
+              <input class="searchInput" type="text" name="" placeholder="Search">
+              <button class="searchButton" href="#">
+                <i class="material-icons">
+                  search
+                </i>
+              </button>
+            </div>
+          </div>
+          <div class="menu-dropdown">
+            <ul class="menu-item-wrapper" id="products">
+              <li class="category-wrapper">
+                <span class="item-category">CINEMA SEAT FABRIC,<br>WALL FABRIC & CARPETS</span>
+                <ul>
+                  <li><a href="#">POLY VINYLE FABRIC</a></li>
+                  <li><a href="#">CARPET FABRIC</a></li>
+                  <li><a href="#">WALL COVERING FABRIC</a></li>
+                  <li><a href="#">CINEMA SEATING FABRIC</a></li>
+                 
+                </ul>
+              </li>
+              <li class="category-wrapper">
+                <span class="item-category">GARMENTS FABRIC</span>
+                <ul>
+                  <li><a href="#">DESIGNER GARMENTS</a></li>
+                  <li><a href="#">FANCY GARMENTS</a></li>
                 
-            </nav>
-        </div>
+                </ul>
+              </li>
+              <li class="category-wrapper">
+                <span class="item-category">TEXTTILES YARNS</span>
+                <ul>
+                  <li><a href="#">FIBER YARN</a></li>
+                  <li><a href="#">BLENDED YARN</a></li>
+                  <li><a href="#">POLISTER YARN</a></li>
+                </ul>
+              </li>
+              <li class="category-wrapper">
+                <span class="item-category">SAREE FABRIC</span>
+                <ul>
+                  <li><a href="#">SKILL SAREE FABRIC</a></li>
+                  <li><a href="#">DESIGNER SAREE FABRIC</a></li>
+                  <li><a href="#">BROCADE DAREE FABRIC</a></li>
+                </ul>
+              </li>
+              <li class="category-wrapper">
+                <span class="item-category">Clothing</span>
+                <ul>
+                  <li><a href="#">Tshirts</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Full Sleeves</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Pants</a></li>
+                </ul>
+              </li>
+              <li class="category-wrapper">
+                <span class="item-category">Clothing</span>
+                <ul>
+                  <li><a href="#">Tshirts</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Full Sleeves</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Pants</a></li>
+                </ul>
+              </li>
+              <li class="category-wrapper">
+                <span class="item-category">Clothing</span>
+                <ul>
+                  <li><a href="#">Tshirts</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Full Sleeves</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Pants</a></li>
+                </ul>
+              </li>
+              <li class="category-wrapper">
+                <span class="item-category">Clothing</span>
+                <ul>
+                  <li><a href="#">Tshirts</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Full Sleeves</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Pants</a></li>
+                </ul>
+              </li>
+              <li class="category-wrapper">
+                <span class="item-category">Clothing</span>
+                <ul>
+                  <li><a href="#">Tshirts</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Full Sleeves</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Pants</a></li>
+                </ul>
+              </li>
+              <li class="category-wrapper">
+                <span class="item-category">Clothing</span>
+                <ul>
+                  <li><a href="#">Tshirts</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Full Sleeves</a></li>
+                  <li><a href="#">Pants</a></li>
+                  <li><a href="#">Pants</a></li>
+                </ul>
+              </li>
 
-    </div>
-    <!-- end header  -->
-    <!-- main part  -->
-    <div class="container-fluid">
-        <img src="image/slide1.jpg" class="img-responsive main" width="100%">
-    </div>
-    <!-- end main part  -->
-    <!-- fabric  -->
-    <section id="work" class="portfolio-mf sect-pt4 route">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">
-                  PRODUCTS
-                </h3>
-                <p class="subtitle-a">
-                  <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. -->
-                </p>
-                <div class="line-mf"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="#" data-lightbox="gallery-mf">
-                  <div class="work-img">
-                    <img src="image/blended yarn.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <h2 class="w-title">BLENDED YARN</h2>
-                        <div class="w-more">
-                          <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span> -->
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="w-like">
-                          <span class="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="work-box">
-                  <a href="#" data-lightbox="gallery-mf">
-                    <div class="work-img">
-                      <img src="image/chair fabric.jpg" alt="" class="img-fluid">
-                    </div>
-                    <div class="work-content">
-                      <div class="row">
-                        <div class="col-sm-8">
-                          <h2 class="w-title">CHAIR FABRIC</h2>
-                          <div class="w-more">
-                            <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span> -->
-                          </div>
-                        </div>
-                        <div class="col-sm-4">
-                          <div class="w-like">
-                            <span class="ion-ios-plus-outline"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="#" data-lightbox="gallery-mf">
-                  <div class="work-img">
-                    <img src="image/Designer garment.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <h2 class="w-title">DESIGNER GARMENT</h2>
-                        <div class="w-more">
-                          <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span> -->
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="w-like">
-                          <span class="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="#" data-lightbox="gallery-mf">
-                  <div class="work-img">
-                    <img src="image/wall covering fabric.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <h2 class="w-title">WALL COVERING FABRIC</h2>
-                        <div class="w-more">
-                          <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span> -->
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="w-like">
-                          <span class="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a href="#" data-lightbox="gallery-mf">
-                  <div class="work-img">
-                    <img src="image/Cinema seating fabric.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="work-content">
-                    <div class="row">
-                      <div class="col-sm-8">
-                        <h2 class="w-title">CINEMA SEATING FABRIC</h2>
-                        <div class="w-more">
-                          <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span> -->
-                        </div>
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="w-like">
-                          <span class="ion-ios-plus-outline"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-4">
-                <div class="work-box">
-                  <a href="#" data-lightbox="gallery-mf">
-                    <div class="work-img">
-                      <img src="image/Fashionfabric garments-1.jpg" alt="" class="img-fluid">
-                    </div>
-                    <div class="work-content">
-                      <div class="row">
-                        <div class="col-sm-8">
-                          <h2 class="w-title">FASHIONFABRIC GARMENTS</h2>
-                          <div class="w-more">
-                            <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span> -->
-                          </div>
-                        </div>
-                        <div class="col-sm-4">
-                          <div class="w-like">
-                            <span class="ion-ios-plus-outline"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            <div class="col-md-4">
-                <div class="work-box">
-                  <a href="#" data-lightbox="gallery-mf">
-                    <div class="work-img">
-                      <img src="image/fancy garments.jpg" alt="" class="img-fluid">
-                    </div>
-                    <div class="work-content">
-                      <div class="row">
-                        <div class="col-sm-8">
-                          <h2 class="w-title">FANCY GARMENTS</h2>
-                          <div class="w-more">
-                            <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span> -->
-                          </div>
-                        </div>
-                        <div class="col-sm-4">
-                          <div class="w-like">
-                            <span class="ion-ios-plus-outline"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
+            </ul>
           </div>
         </div>
-      </section>
-    <!-- end fabric  -->
-    <!-- introduction  -->
-    <div class="container-fluid parallax">
-            <p class="heading">EXPERT MANUFACTURER OF FABRICS, SERVING A RANGE IN MANY COLORS, DESIGNS, PRINTS AND SIZES..</p>
-        <div class="container">
-            <h4 class="h-heading"><i class="fa fa-hand-o-right" aria-hidden="true"></i> : An Introduction</h4>
-            <p class="intro-font">Fabrics from one of the largest industries of the India, the industry witness regular launch of material in new prints, designs and texture, hence is highly competitive. A proud part and successful name of this challenging market is Glory Fab LLP., which is working as a manufacturer and supplier to provide a wide range of Fabrics including Cinema Seat Fabrics, Wall Fabrics & Carpets, Garments, Yarn, Saree Fabrics, Velvets & Suede, Helmet Fabrics, etc. Soft in touch, beautiful in appearance and skin-friendliness of our offered collection makes it stay in heavy demand. Guaranteed of having superior quality, our products are provided to customers only when they clear out conducted many quality tests. Moreover, we deliver our offerings to clients in sealed packaging material, which not just protect them from harms but also add on to the visual appeal.</p>
-            <h4 class="h-heading"><i class="fa fa-hand-o-right" aria-hidden="true"></i> : Quality Policy</h4>
-            <p class="intro-font">Quality products make reputation and loyal customers of a company, believing this, we work hard and ensure to offer the best range of Fabrics. In our premise, a planned Quality Policy is followed, which makes us deliver commendable range and do business with fair means. The adopted policy includes:</p>
-            <ol class="intro-font1">
-                <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> To manufacture products that perfectly stand upto clients' expectations and are made abiding the specifications given by them.</li>
-                <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> To well serve our customers by increasing production capacity and meet clients' requirements</li>
-                <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> To conduct researches and have such staff which aids in better serving clients</li>
-                <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> To provide absolutely safe work environment to our people and regularly check equipment of premise for ensuring safety of workers</li>
-                <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> To punctually provide quality products to customers and build long term relationship with them.</li>
-            </ol>
-        </div>
-        <p class="text-center"><button type="button" class="btn btn-outline-info see-more">See More</button></p>   
+
+      </nav>
     </div>
-    <!-- end introduction  -->
-    <!-- populer products  -->
+
+  </div>
+  <!-- end header  -->
+  <!-- main part  -->
+  <div class="container-fluid">
+    <img src="image/slide1.jpg" class="img-responsive main" width="100%">
+  </div>
+  <!-- end main part  -->
+  <!-- fabric  -->
+  <section id="work" class="portfolio-mf sect-pt4 route">
     <div class="container">
-        <h2 class="heading-most">Most Populer Products</h2>
-        <div class="row">
-            <div class="col-lg-6" data-aos="zoom-in-right" data-aos-duration="1000">
-                <h1 class="p-6">Polyester Yarn</h1>
-            </div>
-            <div class="col-lg-6">
-                <img src="image/poliyster.jpg" class="img-responsive img-thumbnail" alt="Cinque Terre" width="60%" height="300px" data-aos="zoom-in-left" data-aos-duration="1500">
-            </div>
-        </div> <!--First producst -->
-        <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-4" data-aos="zoom-in-right" data-aos-duration="1000">
-                <img src="image/fiber.jpg" class="img-responsive img-thumbnail" alt="Cinque Terre" height="300px" data-aos="zoom-in-left" data-aos-duration="1500">
-            </div>
-            <div class="col-lg-6">
-                <h1 class="p-6">Fiber Yarn</h1>
-            </div>
-        </div> <!--second products-->
-        <div class="row">
-            <div class="col-lg-6" data-aos="zoom-in-right" data-aos-duration="1000">
-                <h1 class="p-6">Bags Luggage Fabric</h1>
-            </div>
-            <div class="col-lg-6">
-                <img src="image/bad luggage fabric.jpg" class="img-responsive img-thumbnail" alt="Cinque Terre" width="60%" height="300px" data-aos="zoom-in-left" data-aos-duration="1500">
-            </div>
-        </div><!--third products-->
-        <div class="row">
-            <div class="col-lg-2"></div>
-            <div class="col-lg-4" data-aos="zoom-in-right" data-aos-duration="1000">
-                <img src="image/sport shoes fabric.jpg" class="img-responsive img-thumbnail" alt="Cinque Terre" height="300px" data-aos="zoom-in-left" data-aos-duration="1500">
-            </div>
-            <div class="col-lg-6">
-                <h1 class="p-6">Sports Shoes Fabric</h1>
-            </div>
-        </div> <!--fourth products-->
-    </div>
-    <!-- end populer products  -->
-    <!-- footer  -->
-    <div class="container-fluid">
-        <div class="row">
-            
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              PRODUCTS
+            </h3>
+            <p class="subtitle-a">
+              <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. -->
+            </p>
+            <div class="line-mf"></div>
+          </div>
         </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="#" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="image/blended yarn.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">BLENDED YARN</h2>
+                    <div class="w-more">
+                      <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span> -->
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="#" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="image/chair fabric.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">CHAIR FABRIC</h2>
+                    <div class="w-more">
+                      <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span> -->
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="#" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="image/Designer garment.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">DESIGNER GARMENT</h2>
+                    <div class="w-more">
+                      <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span> -->
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="#" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="image/wall covering fabric.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">WALL COVERING FABRIC</h2>
+                    <div class="w-more">
+                      <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span> -->
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="#" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="image/Cinema seating fabric.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">CINEMA SEATING FABRIC</h2>
+                    <div class="w-more">
+                      <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span> -->
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="#" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="image/Fashionfabric garments-1.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">FASHIONFABRIC GARMENTS</h2>
+                    <div class="w-more">
+                      <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span> -->
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="#" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="image/fancy garments.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">FANCY GARMENTS</h2>
+                    <div class="w-more">
+                      <!-- <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span> -->
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- end footer  -->
+  </section>
+  <!-- end fabric  -->
+  <!-- introduction  -->
+  <div class="container-fluid parallax">
+    <p class="heading">EXPERT MANUFACTURER OF FABRICS, SERVING A RANGE IN MANY COLORS, DESIGNS, PRINTS AND SIZES..</p>
+    <div class="container">
+      <h4 class="h-heading"><i class="fa fa-hand-o-right" aria-hidden="true"></i> : An Introduction</h4>
+      <p class="intro-font">Fabrics from one of the largest industries of the India, the industry witness regular launch
+        of material in new prints, designs and texture, hence is highly competitive. A proud part and successful name of
+        this challenging market is Glory Fab LLP., which is working as a manufacturer and supplier to provide a wide
+        range of Fabrics including Cinema Seat Fabrics, Wall Fabrics & Carpets, Garments, Yarn, Saree Fabrics, Velvets &
+        Suede, Helmet Fabrics, etc. Soft in touch, beautiful in appearance and skin-friendliness of our offered
+        collection makes it stay in heavy demand. Guaranteed of having superior quality, our products are provided to
+        customers only when they clear out conducted many quality tests. Moreover, we deliver our offerings to clients
+        in sealed packaging material, which not just protect them from harms but also add on to the visual appeal.</p>
+      <h4 class="h-heading"><i class="fa fa-hand-o-right" aria-hidden="true"></i> : Quality Policy</h4>
+      <p class="intro-font">Quality products make reputation and loyal customers of a company, believing this, we work
+        hard and ensure to offer the best range of Fabrics. In our premise, a planned Quality Policy is followed, which
+        makes us deliver commendable range and do business with fair means. The adopted policy includes:</p>
+      <ol class="intro-font1">
+        <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> To manufacture products that perfectly stand
+          upto clients' expectations and are made abiding the specifications given by them.</li>
+        <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> To well serve our customers by increasing
+          production capacity and meet clients' requirements</li>
+        <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> To conduct researches and have such staff which
+          aids in better serving clients</li>
+        <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> To provide absolutely safe work environment to
+          our people and regularly check equipment of premise for ensuring safety of workers</li>
+        <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> To punctually provide quality products to
+          customers and build long term relationship with them.</li>
+      </ol>
+    </div>
+    <p class="text-center"><button type="button" class="btn btn-outline-info see-more">See More</button></p>
+  </div>
+  <!-- end introduction  -->
+  <!-- populer products  -->
+  <div class="container">
+    <h2 class="heading-most">Most Populer Products</h2>
+    <div class="row">
+      <div class="col-lg-6" data-aos="zoom-in-right" data-aos-duration="1000">
+        <h1 class="p-6">Polyester Yarn</h1>
+      </div>
+      <div class="col-lg-6">
+        <img src="image/poliyster.jpg" class="img-responsive img-thumbnail" alt="Cinque Terre" width="60%"
+          height="300px" data-aos="zoom-in-left" data-aos-duration="1500">
+      </div>
+    </div>
+    <!--First producst -->
+    <div class="row">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-4" data-aos="zoom-in-right" data-aos-duration="1000">
+        <img src="image/fiber.jpg" class="img-responsive img-thumbnail" alt="Cinque Terre" height="300px"
+          data-aos="zoom-in-left" data-aos-duration="1500">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="p-6">Fiber Yarn</h1>
+      </div>
+    </div>
+    <!--second products-->
+    <div class="row">
+      <div class="col-lg-6" data-aos="zoom-in-right" data-aos-duration="1000">
+        <h1 class="p-6">Bags Luggage Fabric</h1>
+      </div>
+      <div class="col-lg-6">
+        <img src="image/bad luggage fabric.jpg" class="img-responsive img-thumbnail" alt="Cinque Terre" width="60%"
+          height="300px" data-aos="zoom-in-left" data-aos-duration="1500">
+      </div>
+    </div>
+    <!--third products-->
+    <div class="row">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-4" data-aos="zoom-in-right" data-aos-duration="1000">
+        <img src="image/sport shoes fabric.jpg" class="img-responsive img-thumbnail" alt="Cinque Terre" height="300px"
+          data-aos="zoom-in-left" data-aos-duration="1500">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="p-6">Sports Shoes Fabric</h1>
+      </div>
+    </div>
+    <!--fourth products-->
+  </div>
+  <!-- end populer products  -->
+  <!-- footer  -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row" align="center">
+        <div class="col-sm-12 col-md-3">
+          <a><img src="image/glory-logo.png" class="img-responsive" height="120px" width="100px"></a>
+
+        </div>
+        <div class="col-md-3">
+          <ul class="footer-links">
+            <li><a>Mr Ayush Bansal (Director)</a></li>
+            <li><a href="tel:8000999666">Phone : (+91) 8000999666</a></li>
+            <li><a>Mr. Ankit Yadav</a></li>
+            <li><a href="tel:8154999666">Phone : (+91) 8154999666</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <ul class="footer-links">
+            <li><a><i class="fa fa-angle-double-right" aria-hidden="true"></i> HOME</a></li>
+            <li><a><i class="fa fa-angle-double-right" aria-hidden="true"></i> COMPANY PROFILE</a></li>
+            <li><a><i class="fa fa-angle-double-right" aria-hidden="true"></i> OUR PRODUCTS</a></li>
+            <li><a><i class="fa fa-angle-double-right" aria-hidden="true"></i> ABOUT US</a></li>
+            <li><a><i class="fa fa-angle-double-right" aria-hidden="true"></i> CONTACT US</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+          <i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
+          <ul class="footer-links">
+            <li><a href="https://goo.gl/maps/p8ufPgXcKxxGVErq8" target="_blank">5909, Road No. 59 G.I.D.C, Sachin, Surat
+                - 394230, Gujarat, India</a></li>
+
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">© 2018, All Rights Reserved.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- end footer  -->
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script src="js/megamenu.js" type="text/javascript"></script>
 <script src="js/owl.carouser.mini.js" type="text/javascript"></script>
 <script type="text/javascript">
-    $(".mega-menu").megaMenu({
-        // menuBehaviour: "mouseover",
-        // stickyHeader:false,
-        // caret:true,
-        // highlighter:false,
-        caretArrows: [{
-            // up:"fa fa-angle-up",
-            // down:"fa fa-angle-down",
-            upUrl: "https://cdn1.iconfinder.com/data/icons/outline-17/16/caret-up-512.png",
-            downUrl: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAWlBMVEX///9ERER6eno+Pj44ODg/Pz81NTUyMjKtra3d3d3v7+/IyMjg4OBaWlr7+/tXV1eQkJBycnJISEguLi6Li4tsbGxPT0/Ly8vu7u6wsLCTk5O+vr4hISFRUVH/OnzXAAADLUlEQVR4nO3ci1LiQBCF4RES0IAooFzc9f1fcy3Lddy1GZMw3T2T+r8nSFcIh9MDhAAAAAAAAAAAAAAAAAAAAAAAAICRzttZKbZnlQk3h2ZehuawUZkwrJc3ZViudQYM4XbhPdu7xa3WgCFs597TvZlv9QYMnfd07zrFCcPR/1FcHjUHDOGxcR6wedIdMGweWtcB2weloIjufG9ic6c9oHNkaAZF5BgZqkERdX6v04VqUERukaEdFNGLz11sXqwGDJt7j8ho79WDIlp7vJ8u1BqF5Nb+UVyaBEVkHhlGQRGdjAe8uTkZTxhWto/iYmU9oHHLaB7tBwzh1S4y2lePAS0XU3qrp7Sz1aO40FmP9jCziYz5zGvA0Nk8ia1Ro5Ac9wYD7s0ahcQgMnyC4pN+yzBtFBL1xZTF6ilNeTFls3pKU20Z5o1ConuW4RgU0Urv09vSoVFI1BZThqunNK3IcA+KaK3z0Wbv1CgkKosp69VTmkLLcGwUktMu+4Q789VTWvbIKCUooswtw7lRiLIef7cP3uMIsrYM/0YhydgySmgUkmwto4hGIcm2mPJcPaWt8nx62xcXFFGWllFMo5DkaBkFNQpJhsgoMyiiq1tGWY1CcmVkFBsUUbe75lFsd8UGRXTV8bfHYfZwV7SMEhuFZHTLKLJRSEYff3sdZg83MjLKD4po1GKqsNVTWjdmMVVDUEQjWkbJjULyNDQy1H9Hkd3AltHee1/wYHfD3mzmhTcKyaDFVKmrp7QBLaOCRiEZsJgqd/WU1vsso7wzir56toxaGoWkV2RUGBRRr99l2P6OIrceLaOmRiH5MTIqDYrop8VUFauntB8WU3WsntKSLaO+RiE5XH6dtgfvi8tiffkmNlUHRXSxZdTZKCQXIqP6oIgufcm2+qCIxMVUbaunNKFl1NwoBN+Pvws/zB7u22KqxtVT2n+RMZ2giJ6/3sX5s/flKPg3MiYUFNGXljGFRiH5jIyJBUX09z+mDP7rycvH8Xc9h9nDvS+mal89pb21jAk1Ckm3m8DqKW31e6JBEf3yvgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwPX+AOpkK+wFenxFAAAAAElFTkSuQmCC"
-        }],
-        highlightColor: "skyblue",
-        animation: true,
-        animationClass: "animated fadeIn",
-        followingHighlighter: true,
-        // textHighlighter: true,
-        // textHighlighterColor:"skyblue",
-    })
+  $(".mega-menu").megaMenu({
+    // menuBehaviour: "mouseover",
+    // stickyHeader:false,
+    // caret:true,
+    // highlighter:false,
+    caretArrows: [{
+      // up:"fa fa-angle-up",
+      // down:"fa fa-angle-down",
+      upUrl: "https://cdn1.iconfinder.com/data/icons/outline-17/16/caret-up-512.png",
+      downUrl: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAWlBMVEX///9ERER6eno+Pj44ODg/Pz81NTUyMjKtra3d3d3v7+/IyMjg4OBaWlr7+/tXV1eQkJBycnJISEguLi6Li4tsbGxPT0/Ly8vu7u6wsLCTk5O+vr4hISFRUVH/OnzXAAADLUlEQVR4nO3ci1LiQBCF4RES0IAooFzc9f1fcy3Lddy1GZMw3T2T+r8nSFcIh9MDhAAAAAAAAAAAAAAAAAAAAAAAAICRzttZKbZnlQk3h2ZehuawUZkwrJc3ZViudQYM4XbhPdu7xa3WgCFs597TvZlv9QYMnfd07zrFCcPR/1FcHjUHDOGxcR6wedIdMGweWtcB2weloIjufG9ic6c9oHNkaAZF5BgZqkERdX6v04VqUERukaEdFNGLz11sXqwGDJt7j8ho79WDIlp7vJ8u1BqF5Nb+UVyaBEVkHhlGQRGdjAe8uTkZTxhWto/iYmU9oHHLaB7tBwzh1S4y2lePAS0XU3qrp7Sz1aO40FmP9jCziYz5zGvA0Nk8ia1Ro5Ac9wYD7s0ahcQgMnyC4pN+yzBtFBL1xZTF6ilNeTFls3pKU20Z5o1ConuW4RgU0Urv09vSoVFI1BZThqunNK3IcA+KaK3z0Wbv1CgkKosp69VTmkLLcGwUktMu+4Q789VTWvbIKCUooswtw7lRiLIef7cP3uMIsrYM/0YhydgySmgUkmwto4hGIcm2mPJcPaWt8nx62xcXFFGWllFMo5DkaBkFNQpJhsgoMyiiq1tGWY1CcmVkFBsUUbe75lFsd8UGRXTV8bfHYfZwV7SMEhuFZHTLKLJRSEYff3sdZg83MjLKD4po1GKqsNVTWjdmMVVDUEQjWkbJjULyNDQy1H9Hkd3AltHee1/wYHfD3mzmhTcKyaDFVKmrp7QBLaOCRiEZsJgqd/WU1vsso7wzir56toxaGoWkV2RUGBRRr99l2P6OIrceLaOmRiH5MTIqDYrop8VUFauntB8WU3WsntKSLaO+RiE5XH6dtgfvi8tiffkmNlUHRXSxZdTZKCQXIqP6oIgufcm2+qCIxMVUbaunNKFl1NwoBN+Pvws/zB7u22KqxtVT2n+RMZ2giJ6/3sX5s/flKPg3MiYUFNGXljGFRiH5jIyJBUX09z+mDP7rycvH8Xc9h9nDvS+mal89pb21jAk1Ckm3m8DqKW31e6JBEf3yvgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwPX+AOpkK+wFenxFAAAAAElFTkSuQmCC"
+    }],
+    highlightColor: "skyblue",
+    animation: true,
+    animationClass: "animated fadeIn",
+    followingHighlighter: true,
+    // textHighlighter: true,
+    // textHighlighterColor:"skyblue",
+  })
 </script>
 <!-- aos animation  -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
-    AOS.init();
-  </script>
+  AOS.init();
+</script>
 <!-- aos animation  -->
+
 </html>
