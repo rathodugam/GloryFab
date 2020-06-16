@@ -4,8 +4,8 @@
 
 body {
   margin: 0;
-  font-family: "PT Sans", sans-serif;
-  min-height: 200vh;
+  /* font-family: "PT Sans", sans-serif; */
+  /* min-height: 200vh; */
 }
 
 li {
@@ -77,6 +77,7 @@ li {
   position: relative;
   padding: 25px 0px;
   float: left;
+  font-size: 13px;
 }
 .mega-menu .main-links ul li a:hover {
   border-bottom: 4px solid red;
@@ -149,6 +150,8 @@ li {
   margin-bottom: 15px;
   display: block;
   padding: 0px 15px;
+  font-size: 14px;
+  margin-top: 1rem;
 }
 .mega-menu .menu-dropdown .menu-item-wrapper .category-wrapper .item-category:before {
   content: "";
@@ -169,6 +172,7 @@ li {
   color: #777777;
   display: block;
   height: auto;
+  margin-left:1rem ;
 }
 .mega-menu .menu-dropdown .menu-item-wrapper li:last-child {
   margin-bottom: 0px;
@@ -179,6 +183,7 @@ li {
   display: block;
   height: auto;
   border-bottom: none;
+  font-size: 14px;
 }
 .mega-menu .menu-dropdown .menu-item-wrapper li a:last-child {
   padding-bottom: 0;
