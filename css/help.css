@@ -13,15 +13,13 @@ body {
   opacity: 0.4;
 }
 .head-image {
-  background-image: url("../image/back.jpg");
+  background-image: url("../image/back.jpg" );
   height: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* end navigation  */
 /* slider  */
 .carousel-inner img {
   width: 100%;
@@ -163,15 +161,16 @@ body {
 .p-6{
     padding: 6.5rem !important;
     font-weight: 800;
-    color: #fff;
+    color: #d82c33;
 }
 /* end introduction  */
 /* most populer products  */
 .heading-most {
     text-align: center;
-    font-weight: 700;
+    font-weight: bold;
     margin: 1em;
-    color: #fff;
+    color: #d82c33;
+    font-size: 3rem;
 }
 /* end most populer products  */
 /* footer to top buttion    */
@@ -210,12 +209,4 @@ body {
       padding: 1.5rem !important;
     }
   }
-  @media (max-width:947px){
-    
-}
-@media (max-width:620px){
-    
-}
-@media (max-width:420px){
-    
-}
+ 

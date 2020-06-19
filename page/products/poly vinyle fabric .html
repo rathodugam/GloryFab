@@ -27,6 +27,9 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <!-- aos animation  -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- swipper slider  -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+  <link rel="stylesheet" href="../../css/swipper.css">
 </head>
 
 <body>
@@ -186,33 +189,109 @@
 
   </header>
   <!-- end header  -->
-  <div class="container">
-    <ul class="slides">
-      <li id="slide1"><img src="../../image/vinly fabric/IMG-20180612-WA0005.jpg" alt="" /></li>
-      <li id="slide2"><img src="../../image/vinly fabric/IMG-20180625-WA0000.jpg" alt="" /></li>
-      <li id="slide3"><img src="../../image/vinly fabric/IMG-20180625-WA0002.jpg" alt="" /></li>
-      <li id="slide4"><img src="../../image/vinly fabric/IMG-20180625-WA0024.jpg" alt="" /></li>
-      <!-- <li id="slide5"><img src="https://cdn.rawgit.com/huijing/filerepo/gh-pages/lw5.jpg" alt="" /></li> -->
-    </ul>
-
-    <ul class="thumbnails">
-      <li>
-        <a href="#slide1"><img src="../../image/vinly fabric/IMG-20180612-WA0005.jpg" /></a>
-      </li>
-      <li>
-        <a href="#slide2"><img src="../../image/vinly fabric/IMG-20180625-WA0000.jpg" /></a>
-      </li>
-      <li>
-        <a href="#slide3"><img src="../../image/vinly fabric/IMG-20180625-WA0002.jpg" /></a>
-      </li>
-      <li>
-        <a href="#slide4"><img src="../../image/vinly fabric/IMG-20180625-WA0024.jpg" /></a>
-      </li>
-      <!-- <li>
-        <a href="#slide5"><img src="https://cdn.rawgit.com/huijing/filerepo/gh-pages/lw5.jpg" /></a>
-      </li> -->
-    </ul>
+ <!-- partial:index.partial.html -->
+ <p class="text-center">Product Code :01</p>
+<div class="container">
+  <div class="swiper-container main-slider loading">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url('/image/bad luggage fabric.jpg')">
+          <img src="../../image/bad luggage fabric.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <p class="title"></p>
+          <span class="caption"></span>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url('/image/carpet.jpg')">
+          <img src="../../image/carpet.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <!-- <p class="title">Alexis Berry</p> -->
+          <!-- <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span> -->
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url('/image/Cinema seating fabric.jpg')">
+          <img src="../../image/Cinema seating fabric.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <!-- <p class="title">Billie	Pierce</p> -->
+          <!-- <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span> -->
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url('/image/fiber.jpg')">
+          <img src="../../image/fiber.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <!-- <p class="title">Trevor	Copeland</p> -->
+          <!-- <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span> -->
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url('/image/poliyster.jpg')">
+          <img src="../../image/poliyster.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <!-- <p class="title">Bernadette	Newman</p> -->
+          <!-- <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span> -->
+        </div>
+      </div>
+    </div>
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-button-next swiper-button-white"></div>
   </div>
+  
+  <!-- Thumbnail navigation -->
+  <div class="swiper-container nav-slider loading">
+    <div class="swiper-wrapper" role="navigation">
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url('/image/bad luggage fabric.jpg')">
+          <img src="../../image/bad luggage fabric.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <!-- <p class="title">Shaun Matthews</p> -->
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url('/image/carpet.jpg')">
+          <img src="../../image/carpet.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <!-- <p class="title">Alexis Berry</p> -->
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url('/image/Cinema seating fabric.jpg')">
+          <img src="../../image/Cinema seating fabric.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <!-- <p class="title">Billie	Pierce</p> -->
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url('/image/fiber.jpg')">
+          <img src="../../image/fiber.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <!-- <p class="title">Trevor	Copeland</p> -->
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <figure class="slide-bgimg" style="background-image:url('/image/poliyster.jpg')">
+          <img src="../../image/poliyster.jpg" class="entity-img" />
+        </figure>
+        <div class="content">
+          <!-- <p class="title">Bernadette	Newman</p> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
   <!-- poup menu -->
   <div class="container" align="center">
     <!-- Trigger the modal with a button -->
@@ -297,11 +376,10 @@
       </div>
     </div>
   </div>
-  <p class="text-center">Product Code :01</p>
+  <div class="container-fluid introduction-image">
   <div class="container">
-    
     <div class="row" style="display: block;">
-      <p class="text-center">Product Description</p>
+      <h2 class="text-center">Product Description</h2>
       <p>Since our inception, we have been committed to offering elegantly designed<b> Poly Vinyle Fabric.</b> Offered fabric is
         designed using superior quality yarns and threads which are sourced from reliable market vendors. This fabric is
         designed in various styles, patterns as well as sizes as per clients' choice. It is widely used in making of bags,
@@ -309,16 +387,17 @@
         as well as waterproof properties. </p>
       <h2>Features:</h2>
       <ul>
-        <li>Fade resistance</li>
-        <li>Soft fabric</li>
-        <li>Long lasting</li>
+        <li><i class="fa fa-star fa-2x" aria-hidden="true"></i> Fade resistance</li>
+        <li><i class="fa fa-star fa-2x" aria-hidden="true"></i> Soft fabric</li>
+        <li><i class="fa fa-star fa-2x" aria-hidden="true"> </i> Long lasting</li>
       </ul>
     </div>
   </div>
+</div>
   <!-- end poup menu  -->
   <p class="text-center">Other Products in 'Cinema Seat Fabrics, Wall Fabrics & Carpets' category</p>
 <div class="container">
-  <div class="row">
+  <div class="row" align="center">
     <div class="col-lg-4 col-md-4">
       <img src="../../image/cinema.jpg" height="200px" width="50%" >
       <p><b>Cinema Seatin Fabric</b></p>
@@ -371,7 +450,7 @@
       <hr>
     </div>
     <div class="container">
-      <div class="row" style="display: contents;">
+      <div class="row" style="display: flex;">
         <div class="col-md-8 col-sm-6 col-xs-12">
           <p class="copyright-text">© 2018, All Rights Reserved.
           </p>
@@ -412,4 +491,5 @@
   });
 </script>
 <!-- /*Scroll to top when arrow up clicked END*/ -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="../../js/swipper.js"></script>
 </html>
