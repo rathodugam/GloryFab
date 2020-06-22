@@ -56,15 +56,17 @@
   
   ul.main-nav > li > a { 
     display: block; 
-    padding: 2px 40px; 
+    padding: 7px 40px; 
     position: relative;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
     box-sizing: border-box;
   }
-  
-  ul.main-nav > li:hover { background-color: #f9f9f9; }
+  .top-level-link a {
+    text-decoration: none;
+  }
+  ul.main-nav > li:hover { background-color: #fff; border-radius: 8px 8px 8px 8px; }
   ul.main-nav > li:hover > a { color: #333; font-weight: 400; }
   
   ul.main-nav > li ul.sub-menu-lists {
@@ -320,7 +322,7 @@
     .sub-menu-head { font-size: 20px;}
     
     /* List Separator: Outer Border */
-    header.dark ul.main-nav > li > a { border-right: 1px solid #bbb; }
+    /* header.dark ul.main-nav > li > a { border-right: 1px solid #bbb; } */
     header.light ul.main-nav > li > a { border-right: 1px solid #666; }
     
     /* List Separator: Inner Border */

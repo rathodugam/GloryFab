@@ -18,6 +18,8 @@
 
 .text-center {
   font-weight: bold;
+  font-size: 20px;
+  padding: 2em;
 }
 /* footer to top buttion    */
 #back2Top {
@@ -47,7 +49,6 @@
 }
 .introduction-image {
   background-image: url("../image/background\ -\ 1.jpg" );
-  height: 400px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,12 +56,11 @@
   color: #fff;
 }
 .introduction-image p {
-  font-size: 20px;
   text-align: justify;
 }
-.introduction-image ul li {
-  list-style: none;
+.introduction-image ol  {
   margin: 1rem;
+  padding-bottom: 2em;
 }
 .fa-star {
   color: yellow;
