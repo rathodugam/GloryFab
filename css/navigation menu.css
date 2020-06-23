@@ -245,7 +245,22 @@
     .banners-area div { margin-bottom: 15px;  }
     .banners-area { border-top: 1px solid #444; }
   }
-
+  @media only screen and (min-width:1329px){
+    /* ul.main-nav {
+      padding-left: 23rem !important;
+    } */
+  }
+  @media only screen and (min-width:1000px){
+    /* ul.main-nav {
+      padding-left: 0rem !important;
+    } */
+  }
+  @media only screen and (min-width:784px){
+    ul.main-nav {
+      /* padding-left: 0rem !important;
+      display: -moz-inline-grid ;
+      } */
+  }
   @media only screen and (min-width:769px) {
     .ic.menu { display: none; }
     /* Main Menu for Desktop Devices  */
@@ -352,3 +367,4 @@
     .banners-area { border-top: 1px solid #ccc; }
   }
   /* end new navigation  */
+  
