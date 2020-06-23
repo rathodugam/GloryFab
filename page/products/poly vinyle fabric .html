@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="../../css/swipper.css">
 </head>
 
-<body>
+<body onload="readmore()" onresize="readmore()">
   <!-- header  -->
   <header class="dark ">
 
@@ -367,11 +367,11 @@
   <div class="container">
     <div class="row" style="display: block;">
       <h2 class="text-center">Product Description</h2>
-      <p>Since our inception, we have been committed to offering elegantly designed<b> Poly Vinyle Fabric.</b> Offered fabric is
+      <p>Since our inception, we have been committed to offering elegantly<span id="dots">...  </span><span id="more"> designed<b> Poly Vinyle Fabric.</b> Offered fabric is
         designed using superior quality yarns and threads which are sourced from reliable market vendors. This fabric is
         designed in various styles, patterns as well as sizes as per clients' choice. It is widely used in making of bags,
         mattresses as well as upholstery. <b>Poly Vinyle Fabric</b> is demanded due to its resistant to creasing, color fastness
-        as well as waterproof properties. </p>
+        as well as waterproof properties. </span><span onclick="myFunction()" style="color: rgb(36, 112, 156);" id="myBtn">Read more</span></p>
       <h2>Features:</h2>
       <ol>
         <li> Fade resistance</li>
@@ -479,4 +479,5 @@
 </script>
 <!-- /*Scroll to top when arrow up clicked END*/ -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="../../js/swipper.js"></script>
+<script src="/js/readmore.js"></script>
 </html>

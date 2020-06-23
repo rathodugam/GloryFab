@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="../../css/swipper.css">
 </head>
 
-<body>
+<body onload="readmore()" onresize="readmore()">
   <!-- header  -->
   <header class="dark ">
 
@@ -367,7 +367,7 @@
     <div class="container">
       <div class="row" style="display: block;">
         <h2 class="text-center">Product Description</h2>
-        <p>Backed by rich industry experience, we are involved in manufacturing and supplying Helmets Laminated Fabric that is made using top grade raw materials. This fabric is checked on different parameters by experts to ensure its high capability to absorb sudden shock & force. It is highly praised among clients due to its smooth finish as well as lightweight properties. Helmets Laminated Fabric is checked on various quality parameters to ensure defect free delivery. </p>
+        <p>Backed by rich industry experience, we are involved in <span id="dots">...  </span><span id="more"> manufacturing and supplying Helmets Laminated Fabric that is made using top grade raw materials. This fabric is checked on different parameters by experts to ensure its high capability to absorb sudden shock & force. It is highly praised among clients due to its smooth finish as well as lightweight properties. Helmets Laminated Fabric is checked on various quality parameters to ensure defect free delivery. </span><span onclick="myFunction()" style="color: rgb(36, 112, 156);" id="myBtn">Read more</span> </p>
         <h2>Features:</h2>
         <ol>
           <li> Optimum tear strength</li>
@@ -475,4 +475,5 @@
 </script>
 <!-- /*Scroll to top when arrow up clicked END*/ -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="../../js/swipper.js"></script>
+<script src="/js/readmore.js"></script>
 </html>

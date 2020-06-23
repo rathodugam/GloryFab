@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="../../css/swipper.css">
 </head>
 
-<body>
+<body onload="readmore()" onresize="readmore()">
   <!-- header  -->
   <header class="dark ">
 
@@ -367,7 +367,7 @@
   <div class="container">
     <div class="row" style="display: block;">
       <h2 class="text-center">Product Description</h2>
-      <p>In order to cater to the variegated demands of our clients, we are offering an excellent quality range of Polyester Yarn which is made using quality fiber material under the supervision of experts. This yarn is widely used in different clothing industries for making various garments. It is widely demanded in the market due to its high strength as well as durable nature. Before dispatching of this yarn, it is checked on different quality parameters to ensure full satisfaction of clients. Polyester Yarn can be availed in different lengths at market leading prices.</p>
+      <p>In order to cater to the variegated demands of our clients,<span id="dots">...  </span><span id="more"> we are offering an excellent quality range of Polyester Yarn which is made using quality fiber material under the supervision of experts. This yarn is widely used in different clothing industries for making various garments. It is widely demanded in the market due to its high strength as well as durable nature. Before dispatching of this yarn, it is checked on different quality parameters to ensure full satisfaction of clients. Polyester Yarn can be availed in different lengths at market leading prices.</span><span onclick="myFunction()" style="color: rgb(36, 112, 156);" id="myBtn">Read more</span></p>
       <h2>Features:</h2>
       <ol>
         <li> Light in weight</li>
@@ -475,4 +475,5 @@
 </script>
 <!-- /*Scroll to top when arrow up clicked END*/ -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="../../js/swipper.js"></script>
+<script src="/js/readmore.js"></script>
 </html>

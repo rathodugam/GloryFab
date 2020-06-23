@@ -30,7 +30,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body class="head-image">
+<body onload="readmore()" onresize="readmore()" class="head-image">
   <!-- header  -->
   <header class="dark ">
 
@@ -152,10 +152,6 @@
                 </ul> -->
               </div>
             </div>
-
-
-        
-
           </div>
         </li>
         <li class="top-level-link">
@@ -223,10 +219,11 @@
         <div class="box zoom">
           <div class="glass"></div>
           <div class="content">
-            <a>
+            <a href="page/products/Blended Yarn.html">
               <p class="viewmore">Blended Yarn</p>
-            </a>
+            
             <img src="image/blended yarn.jpg" class="img-responsive products-img" height="400px" width="100%">
+          </a>
           </div>
         </div>
       </div>
@@ -234,11 +231,12 @@
         <div class="box zoom">
           <div class="glass"></div>
           <div class="content">
-            <a>
+            <a href="page/products/Fashion Fabric Garment.html">
               <p class="viewmore">Fashion Fabric Garment</p>
-            </a>
+            
             <img src="image/Fashionfabric garments-1.jpg" class="img-responsive products-img" height="400px"
               width="100%">
+            </a>
           </div>
         </div>
       </div>
@@ -246,10 +244,10 @@
         <div class="box zoom">
           <div class="glass"></div>
           <div class="content">
-            <a>
+            <a href="page/products/Designer Garments.html">
               <p class="viewmore">Designer Garments</p>
-            </a>
             <img src="image/Designer garment.jpg" class="img-responsive products-img" height="400px" width="100%">
+          </a>
           </div>
         </div>
       </div>
@@ -260,10 +258,10 @@
         <div class="box zoom">
           <div class="glass"></div>
           <div class="content">
-            <a>
+            <a href="page/products/Wall Covering Fabric.html">
               <p class="viewmore">Wall Covering Fabric</p>
-            </a>
             <img src="image/wall covering fabric.jpg" class="img-responsive products-img" height="400px" width="100%">
+          </a>
           </div>
         </div>
       </div>
@@ -271,10 +269,10 @@
         <div class="box zoom">
           <div class="glass"></div>
           <div class="content">
-            <a>
+            <a href="page/products/Cinema Seating Fabric.html">
               <p class="viewmore">Cinema Seating Fabric</p>
-            </a>
             <img src="image/Cinema seating fabric.jpg" class="img-responsive products-img" height="400px" width="100%">
+          </a>
           </div>
         </div>
       </div>
@@ -282,10 +280,10 @@
         <div class="box zoom">
           <div class="glass"></div>
           <div class="content">
-            <a>
+            <a href="page/products/Chair Fabric.html">
               <p class="viewmore">Chair Fabric</p>
-            </a>
             <img src="image/chair fabric.jpg" class="img-responsive products-img" height="400px" width="100%">
+          </a>
           </div>
         </div>
       </div>
@@ -296,10 +294,10 @@
         <div class="box zoom">
           <div class="glass"></div>
           <div class="content">
-            <a>
+            <a href="page/products/Fancy Garments.html">
               <p class="viewmore">Fancy Garments</p>
-            </a>
             <img src="image/fancy garments.jpg" class="img-responsive products-img" height="400px" width="100%">
+          </a>
           </div>
         </div>
       </div>
@@ -336,23 +334,27 @@
       <p class="intro-font"> Fabrics from one of the largest industries of the India, the industry witness regular
         launch of material in
         new prints, designs and texture, hence is highly competitive. A proud part and successful name of this
-        challenging market is Glory Fab LLP., which is working as a manufacturer and supplier to provide a wide range
-        of Fabrics including Cinema Seat Fabrics, Wall Fabrics & Carpets, Garments, Yarn, Saree Fabrics, Velvets &
-        Suede, Helmet Fabrics, etc. Soft in touch, beautiful in appearance and skin-friendliness of our offered
-        collection makes it stay in heavy demand. Guaranteed of having superior quality, our products are provided to
-        customers only when they clear out conducted many quality tests. Moreover, we deliver our offerings to clients
-        in sealed packaging material, which not just protect them from harms but also add on to the visual appeal.</p>
+        challenging market is Glory Fab LLP., <span id="dots">...  </span><span id="more"> which is working as a manufacturer and supplier to provide a wide range
+          of Fabrics including Cinema Seat Fabrics, Wall Fabrics & Carpets, Garments, Yarn, Saree Fabrics, Velvets &
+          Suede, Helmet Fabrics, etc. Soft in touch, beautiful in appearance and skin-friendliness of our offered
+          collection makes it stay in heavy demand. Guaranteed of having superior quality, our products are provided to
+          customers only when they clear out conducted many quality tests. Moreover, we deliver our offerings to clients
+          in sealed packaging material, which not just protect them from harms but also add on to the visual appeal.</span><span onclick="myFunction()" style="color: rgb(36, 112, 156);" id="myBtn">Read more</span></p>
+          
       <h4 class="h-heading">Quality Policy</h4>
       <p class="intro-font">Quality products make reputation and loyal customers of a company, believing this, we work
-        hard and ensure to offer the best range of Fabrics. In our premise, a planned Quality Policy is followed, which
-        makes us deliver commendable range and do business with fair means. The adopted policy includes:</p>
+        hard and ensure to offer the best range of Fabrics.<span id="dots2">...</span><span id="more2"> In our premise, a planned Quality Policy is followed, which
+        makes us deliver commendable range and do business with fair means. The adopted policy includes:</span><span onclick="myFunction2()" style="color: rgb(36, 112, 156);" id="myBtn2">Read More</span></p>
       <ol class="intro-font1">
         <li> To manufacture products that perfectly stand  upto clients' expectations and are made abiding the specifications given by them.</li>
+        <span id="dots1">...</span><span id="more1">
         <li>To well serve our customers by increasing  production capacity and meet clients' requirements</li>
         <li>To conduct researches and have such staff which  aids in better serving clients</li>
         <li>To provide absolutely safe work environment to  our people and regularly check equipment of premise for ensuring safety of workers</li>
         <li>To punctually provide quality products to customers and build long term relationship with them.</li>
+      </span><span onclick="myFunction1()" style="color: rgb(36, 112, 156);" id="myBtn1">Read More</span>
       </ol>
+   
     </div>
     <p class="text-center"><a href="page/CompanyProfile.html"><button type="button" class="btn btn-outline-info see-more">See More</button></a></p>
   </div>
@@ -512,6 +514,5 @@
   });
 </script>
 <!-- /*Scroll to top when arrow up clicked END*/ -->
-
-
+<script src="js/readmore.js"></script>
 </html>

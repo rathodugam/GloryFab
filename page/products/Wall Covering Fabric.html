@@ -30,7 +30,7 @@
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
   <link rel="stylesheet" href="../../css/swipper.css">
 </head>
-<body>
+<body onload="readmore()" onresize="readmore()">
     <!-- header  -->
   <header class="dark ">
 
@@ -365,7 +365,7 @@
   <div class="container">
     <div class="row" style="display: block;">
       <h2 class="text-center">Product Description</h2>
-      <p>Our company is engaged in offering Wall Covering Fabric that is made using high-quality materials and provides an excellent ambiance. This fabric is broadly demanded in homes, corporates, restaurants, hotels as well as various other places. We provide this fabric in different sizes, colors and other related specifications to meet clients demand. In addition, Wall Covering Fabric can be easily washed & provide good wear as well as tear performance. </p>
+      <p>Our company is engaged in offering Wall Covering Fabric that is made using high-quality materials and<span id="dots">...  </span><span id="more"> provides an excellent ambiance. This fabric is broadly demanded in homes, corporates, restaurants, hotels as well as various other places. We provide this fabric in different sizes, colors and other related specifications to meet clients demand. In addition, Wall Covering Fabric can be easily washed & provide good wear as well as tear performance. </span><span onclick="myFunction()" style="color: rgb(36, 112, 156);" id="myBtn">Read more</span> </p>
       <h2>Features:</h2>
       <ol>
         <li> Lively appearance</li>
@@ -473,4 +473,5 @@
   </script>
   <!-- /*Scroll to top when arrow up clicked END*/ -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="../../js/swipper.js"></script>
-</html>
+<script src="/js/readmore.js"></script>
+  </html>

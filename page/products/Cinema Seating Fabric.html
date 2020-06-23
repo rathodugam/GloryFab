@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="../../css/swipper.css">
 </head>
 
-<body>
+<body onload="readmore()" onresize="readmore()">
   <!-- header  -->
   <header class="dark ">
 
@@ -371,7 +371,7 @@
   <div class="container">
     <div class="row" style="display: block;">
       <h2 class="text-center">Product Description</h2>
-      <p>Over the years, we have established ourselves as a prominent name involved in manufacturing and supplying CinemaSeatingFabric, that is designed to enhance the attractiveness of the seats. This fabric is also used in the seating of multiplex, auditoriums as well as conference halls. It is checked on different quality parameters by our professionals to ensure its high strength. CinemaSeatingFabric can be availed different colors and lengths at market leading prices. </p>
+      <p>Over the years, we have established ourselves as a prominent name <span id="dots">...  </span><span id="more"> nvolved in manufacturing and supplying CinemaSeatingFabric, that is designed to enhance the attractiveness of the seats. This fabric is also used in the seating of multiplex, auditoriums as well as conference halls. It is checked on different quality parameters by our professionals to ensure its high strength. CinemaSeatingFabric can be availed different colors and lengths at market leading prices. </span><span onclick="myFunction()" style="color: rgb(36, 112, 156);" id="myBtn">Read more</span></p>
       <h2>Features:</h2>
       <ol>
         <li> High stability</li>
@@ -479,4 +479,5 @@
 </script>
 <!-- /*Scroll to top when arrow up clicked END*/ -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="../../js/swipper.js"></script>
+<script src="/js/readmore.js"></script>
 </html>

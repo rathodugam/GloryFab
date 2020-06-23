@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="../../css/swipper.css">
 </head>
 
-<body>
+<body onload="readmore()" onresize="readmore()">
   <!-- header  -->
   <header class="dark ">
 
@@ -371,7 +371,7 @@
   <div class="container">
     <div class="row" style="display: block;">
       <h2 class="text-center">Product Description</h2>
-      <p>Our organization specializes in providing ChairFabric at market leading prices. This is made using polyester materials and modern technology under the supervision of skilled designers. Offered fabric is mainly used for chairs used in homes, offices, banks and many other places. This fabric is well known for its tough as well as tensile strength. ChairFabric does not wriggle or move around, while it also provides high durability and does not fade its color. </p>
+      <p>Our organization specializes in providing ChairFabric at market leading prices. This is made <span id="dots">...  </span><span id="more">using polyester materials and modern technology under the supervision of skilled designers. Offered fabric is mainly used for chairs used in homes, offices, banks and many other places. This fabric is well known for its tough as well as tensile strength. ChairFabric does not wriggle or move around, while it also provides high durability and does not fade its color.</span><span onclick="myFunction()" style="color: rgb(36, 112, 156);" id="myBtn">Read more</span> </p>
       <h2>Features:</h2>
       <ol>
         <li> Fine finish</li>
@@ -496,4 +496,5 @@
 </script>
 <!-- /*Scroll to top when arrow up clicked END*/ -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="../../js/swipper.js"></script>
+<script src="../../js/readmore.js"></script>
 </html>

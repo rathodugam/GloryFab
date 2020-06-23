@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="../../css/swipper.css">
 </head>
 
-<body>
+<body onload="readmore()" onresize="readmore()">
   <!-- header  -->
   <header class="dark ">
 
@@ -371,7 +371,7 @@
   <div class="container">
     <div class="row" style="display: block;">
       <h2 class="text-center">Product Description</h2>
-      <p>Our skilled professionals assist us in offering a wide array of superior quality DesignerGarments. We offer this fabric within the stipulated time frame at industry leading prices. It is made using pure cotton fabric that makes them skin friendly as well as resistant to shrink.  This fabric is designed with an aim to cater to the wide requirements of fashion-conscious patrons. DesignerGarments fabrics are provided in safe packaging to avoid dust during transit. </p>
+      <p>Our skilled professionals assist us in offering a wide array of superior<span id="dots">...  </span><span id="more"> quality DesignerGarments. We offer this fabric within the stipulated time frame at industry leading prices. It is made using pure cotton fabric that makes them skin friendly as well as resistant to shrink.  This fabric is designed with an aim to cater to the wide requirements of fashion-conscious patrons. DesignerGarments fabrics are provided in safe packaging to avoid dust during transit.</span><span onclick="myFunction()" style="color: rgb(36, 112, 156);" id="myBtn">Read more</span> </p>
       <h2>Features:</h2>
       <ol>
         <li> Elegant color</li>
@@ -479,4 +479,5 @@
 </script>
 <!-- /*Scroll to top when arrow up clicked END*/ -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="../../js/swipper.js"></script>
+<script src="/js/readmore.js"></script>
 </html>

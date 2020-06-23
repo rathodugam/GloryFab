@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="../../css/swipper.css">
 </head>
 
-<body>
+<body onload="readmore()" onresize="readmore()">
   <!-- header  -->
   <header class="dark ">
 
@@ -372,7 +372,7 @@
     <div class="container">
       <div class="row" style="display: block;">
         <h2 class="text-center">Product Description</h2>
-        <p>We are one of the leading manufacturers and suppliers of ChairFabric Cover that is checked on different quality parameters by our experts to ensure its premium quality. Our offered fabric cover is stitched under the guidance of skilled craftsman by using optimum grade threads and latest techniques.  This fabric is widely used in furniture, chairs and sofas. Apart from this, ChairFabric Cover can be availed in different colors as well as lengths as per the clients' demand.  </p>
+        <p>We are one of the leading manufacturers and suppliers of ChairFabric Cover that is checked on<span id="dots">...  </span><span id="more"> different quality parameters by our experts to ensure its premium quality. Our offered fabric cover is stitched under the guidance of skilled craftsman by using optimum grade threads and latest techniques.  This fabric is widely used in furniture, chairs and sofas. Apart from this, ChairFabric Cover can be availed in different colors as well as lengths as per the clients' demand. </span><span onclick="myFunction()" style="color: rgb(36, 112, 156);" id="myBtn">Read more</span> </p>
         <h2>Features:</h2>
         <ol>
           <li> High strength</li>
@@ -497,4 +497,5 @@
 </script>
 <!-- /*Scroll to top when arrow up clicked END*/ -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="../../js/swipper.js"></script>
+<script src="/js/readmore.js"></script>
 </html>

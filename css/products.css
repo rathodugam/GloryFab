@@ -2,8 +2,9 @@
 .dark {
     background-color: black;
 }
-
-  
+.ic.menu .line {
+  background-color: #010101 !important;
+}
   .click {
       display: flex;
       justify-content: space-evenly;
@@ -63,3 +64,10 @@
 .fa-star {
   color: yellow;
 }
+/* read more buttion  */
+#more {display: none;}
+#myBtn{display: none;}
+/* end read more buttion  */
+@media (max-width:736px){
+  #myBtn{display: block;}
+ }

@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="../../css/swipper.css">
 </head>
 
-<body>
+<body onload="readmore()" onresize="readmore()">
   <!-- header  -->
   <header class="dark ">
 
@@ -367,7 +367,7 @@
     <div class="container">
       <div class="row" style="display: block;">
         <h2 class="text-center">Product Description</h2>
-        <p>Our company is well-known in the market for supplying high-quality Sports Shoes Fabric that is made using best quality raw materials procured from reliable market vendors. This fabric is used for making sports shoes and is available in different colors, sizes as well as patterns. Offered fabric is highly demanded in the market due to its long lasting nature. Sports Shoes Fabric is provided in secure packaging to avoid outer impacts during transit. </p>
+        <p>Our company is well-known in the market for supplying high-quality Sports Shoes Fabric that<span id="dots">...  </span><span id="more"> is made using best quality raw materials procured from reliable market vendors. This fabric is used for making sports shoes and is available in different colors, sizes as well as patterns. Offered fabric is highly demanded in the market due to its long lasting nature. Sports Shoes Fabric is provided in secure packaging to avoid outer impacts during transit. </span><span onclick="myFunction()" style="color: rgb(36, 112, 156);" id="myBtn">Read more</span> </p>
         <h2>Features:</h2>
         <ol>
           <li> Highly durable</li>
@@ -456,4 +456,5 @@
 </script>
 <!-- /*Scroll to top when arrow up clicked END*/ -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="../../js/swipper.js"></script>
+<script src="/js/readmore.js"></script>
 </html>

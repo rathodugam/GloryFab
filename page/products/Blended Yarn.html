@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="../../css/swipper.css">
 </head>
 
-<body>
+<body onload="readmore()" onresize="readmore()">
   <!-- header  -->
   <header class="dark ">
 
@@ -380,7 +380,7 @@
   <div class="container">
     <div class="row" style="display: block;">
       <h2 class="text-center">Product Description</h2>
-      <p>In order to meet the diverse demands of our prestigious clients, we are engaged in offering a beautiful array of Blended Yarn. This yarn is made by combining fibers of different origins, length, thickness as well as color. Offered yarn is widely used in textiles, sewing, knitting, weaving and also in embroidery. This blended yarn is spun with high-grade raw material and modern techniques. Blended Yarn is highly praised among clients' due to its high strength nature. </p>
+      <p>In order to meet the diverse demands of our prestigious clients, we are engaged <span id="dots">...  </span><span id="more"> in offering a beautiful array of Blended Yarn. This yarn is made by combining fibers of different origins, length, thickness as well as color. Offered yarn is widely used in textiles, sewing, knitting, weaving and also in embroidery. This blended yarn is spun with high-grade raw material and modern techniques. Blended Yarn is highly praised among clients' due to its high strength nature.</span><span onclick="myFunction()" style="color: rgb(36, 112, 156);" id="myBtn">Read more</span> </p>
       <h2>Features:</h2>
       <ol>
         <li> Smooth texture</li>
@@ -488,4 +488,5 @@
 </script>
 <!-- /*Scroll to top when arrow up clicked END*/ -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="../../js/swipper.js"></script>
+<script src="../../js/readmore.js"></script>
 </html>

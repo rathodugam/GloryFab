@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="../../css/swipper.css">
 </head>
 
-<body>
+<body onload="readmore()" onresize="readmore()">
   <!-- header  -->
   <header class="dark ">
 
@@ -368,7 +368,7 @@
     <div class="container">
       <div class="row" style="display: block;">
         <h2 class="text-center">Product Description</h2>
-        <p>Established in the year 2005, we are one the major manufacturers and suppliers of Velvet  Fabrics that is perfect for creating stylish lounge wear, dance costumes, leotards, tops, dresses as well as children's apparel. This fabric is usually made from fibres such as linen, mohair and wool which is procured from reliable market vendors. Offered fabric is also used in home furnishing, jackets, overcoats, outer wears and soft toys. Apart from this, clients' can avail this Velvet Fabrics in different colors & lengths as per their choice.  </p>
+        <p>Established in the year 2005, we are one the major manufacturers and suppliers of Velvet  Fabrics that is<span id="dots">...  </span><span id="more"> perfect for creating stylish lounge wear, dance costumes, leotards, tops, dresses as well as children's apparel. This fabric is usually made from fibres such as linen, mohair and wool which is procured from reliable market vendors. Offered fabric is also used in home furnishing, jackets, overcoats, outer wears and soft toys. Apart from this, clients' can avail this Velvet Fabrics in different colors & lengths as per their choice. </span><span onclick="myFunction()" style="color: rgb(36, 112, 156);" id="myBtn">Read more</span> </p>
         <h2>Features:</h2>
         <ol>
           <li> Soft texture</li>
@@ -457,4 +457,5 @@
 </script>
 <!-- /*Scroll to top when arrow up clicked END*/ -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="../../js/swipper.js"></script>
+<script src="/js/readmore.js"></script>
 </html>

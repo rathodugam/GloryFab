@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="../../css/swipper.css">
 </head>
 
-<body>
+<body onload="readmore()" onresize="readmore()">
   <!-- header  -->
   <header class="dark ">
 
@@ -367,7 +367,7 @@
   <div class="container">
     <div class="row" style="display: block;">
       <h2 class="text-center">Product Description</h2>
-      <p>Owing to the efforts of our dedicated team of professionals, we have been constantly engaged in offering the best quality Seat Cover Fabric. This fabric is made using polyester as well as cotton materials and is suitable for furnishing use. Offered fabric provides a gorgeous finished look to chairs. We provide this fabric in different colors as well as textures at industry leading prices. Apart from this, Seat Cover Fabric is provided in safe packaging to avoid outer impacts during transit. </p>
+      <p>Owing to the efforts of our dedicated team of professionals, we have been constantly<span id="dots">...  </span><span id="more"> engaged in offering the best quality Seat Cover Fabric. This fabric is made using polyester as well as cotton materials and is suitable for furnishing use. Offered fabric provides a gorgeous finished look to chairs. We provide this fabric in different colors as well as textures at industry leading prices. Apart from this, Seat Cover Fabric is provided in safe packaging to avoid outer impacts during transit.</span><span onclick="myFunction()" style="color: rgb(36, 112, 156);" id="myBtn">Read more</span> </p>
       <h2>Features:</h2>
       <ol>
         <li> Dustproof nature</li>
@@ -492,4 +492,5 @@
 </script>
 <!-- /*Scroll to top when arrow up clicked END*/ -->
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js'></script><script  src="../../js/swipper.js"></script>
+<script src="/js/readmore.js"></script>
 </html>
