@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+p {
+  font-size: 15px;
+}
 body {
     /* background-color: #f7f7f7; */
 }
@@ -22,8 +25,7 @@ body {
 
 .heading {
     text-align: center;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 700;
 }
 .heading p {
     text-align: justify;
@@ -90,7 +92,9 @@ body {
   .footer-links a {
     color: #ffff;
   }
-  
+  .fa-circle {
+    font-size: 12px !important;
+  }
   .footer-links a:active,
   .footer-links a:focus,
   .footer-links a:hover {

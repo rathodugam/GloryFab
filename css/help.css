@@ -43,6 +43,10 @@ body {
   }
 
 /* fabric  */
+.gallary {
+  display: flex;
+    justify-content: center;
+}
 .box{
 	position: relative;
   width: 247px;
@@ -51,8 +55,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	background: #060c21;
-  margin-top: 5rem;
-  margin-bottom: 3rem;
+ margin: 2rem;
 }
 .box:before{
 	content: '';
@@ -170,7 +173,6 @@ body {
     font-weight: bold;
     margin: 1em;
     color: black;
-    font-size: 3rem;
 }
 /* end most populer products  */
 /* footer to top buttion    */
@@ -211,11 +213,11 @@ body {
   /* responsive  */
   @media (max-width:520px){
       .box {
-        height: 169px;
-    width: 125px;
+        height: 151px;
+    width: 112px;
       }
       .content img {
-        height: 170px;
+        height: 150px;
       }
       .products-img {
         border-radius: 0rem 4rem;
@@ -255,3 +257,23 @@ body {
      width: 40%;
    }
  }
+ /* hover effact  */
+ .hunderline {
+  color:#7B9CDE;
+   text-decoration:none;
+   position:relative;
+}
+.underline::after {
+   content:'';
+   display:inline-block;
+   width:0;
+   height:1px;
+   background:#7B9CDE;
+   position: absolute;
+   left: 0px;
+   bottom:0px;
+   transition:3.5s ease-in;
+}
+.underline:hover::after {
+   width:40%;
+}

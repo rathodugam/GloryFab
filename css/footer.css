@@ -34,7 +34,9 @@
     color: #3366cc;
     text-decoration: none;
   }
-  
+  .fa-circle {
+    font-size: 12px !important;
+  }
   .footer-links {
     padding-left: 0;
     list-style: none;

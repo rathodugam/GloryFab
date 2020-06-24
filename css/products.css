@@ -2,9 +2,14 @@
 .dark {
     background-color: black;
 }
-.ic.menu .line {
-  background-color: #010101 !important;
+.logo {
+  margin: 1rem;
 }
+.heading {
+  color: #fff;
+  text-decoration: none;
+}
+
   .click {
       display: flex;
       justify-content: space-evenly;
