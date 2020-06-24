@@ -45,13 +45,14 @@ body {
 /* fabric  */
 .box{
 	position: relative;
-	width: 300px;
-	height: 400px;
+  width: 247px;
+  height: 292px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background: #060c21;
-	margin: 40px;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 .box:before{
 	content: '';
@@ -107,10 +108,10 @@ body {
 
 .viewmore {
   position: absolute;
-  font-size: 31px;
-  margin-top: 17rem;
-  padding: 1rem 0rem 0rem 4rem;
-  color: #fff;
+    font-size: 25px;
+    margin-top: 11rem;
+    padding: 1rem 0rem 0rem 3rem;
+    color: #fff;
 }
 .zoom {
   transition: transform .2s;
@@ -210,16 +211,19 @@ body {
   /* responsive  */
   @media (max-width:520px){
       .box {
-        height: 265px;
-        width: 206px;
+        height: 169px;
+    width: 125px;
       }
       .content img {
-        height: 265px;
+        height: 170px;
       }
+      .products-img {
+        border-radius: 0rem 4rem;
+    }
       .viewmore {
-        font-size: 21px;
-        margin-top: 10rem;
-        padding: 1rem 0rem 0rem 3rem;
+        font-size: 11px;
+        margin-top: 7rem;
+        padding: 0rem 0rem 0rem 2rem
       }
       .img-thumbnail {
         width: 100% !important;
@@ -234,7 +238,7 @@ body {
       .see-more {
          width: auto; 
     }
-    }
+  }
 
   @media(max-width:979px){
     .p-6 {
@@ -244,5 +248,10 @@ body {
  @media (max-width:736px){
   #myBtn{display: block;}
   #myBtn1{display: block;}
-  #myBtn2{display: block;}
+  #myBtn2{display: block;} 
+ }
+ @media(max-width:520px){
+   .col-sm-3 {
+     width: 40%;
+   }
  }
